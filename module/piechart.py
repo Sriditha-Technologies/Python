@@ -1,4 +1,6 @@
-days=[1,2,3,4,5]
+from tokenize import PlainToken
+from matplotlib import pyplot as plt
+PlainTokendays=[1,2,3,4,5]
 sleeping=[7,8,6,11,7]
 eating=[2,3,4,3,2]
 working=[7,8,7,2,2]

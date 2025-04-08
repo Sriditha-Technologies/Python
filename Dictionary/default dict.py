@@ -1,3 +1,4 @@
+from collections import defaultDict
 D=defaultDict(int)
 D['dhamu']=1
 D['saba']=2

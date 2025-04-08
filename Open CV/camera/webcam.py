@@ -10,7 +10,7 @@ while True:
     status=0
     gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
     gray=cv2.GaussionBlur(gray,(21,21),0)
-    (_,cnts,_)=cv2.findContours(thresh_frame.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+    (_,cnts,_)=cv2.findContours(thresh_frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     for contour in cnts:
         if cv2.contourArea(contour)<1000:
             continue
