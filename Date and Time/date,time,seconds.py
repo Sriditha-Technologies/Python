@@ -1,0 +1,10 @@
+import datetime
+dt=datetime.datetime(2021,8,3,2,40,20,123456)
+print(dt)
+print("year:",dt.year)
+print("year:",dt.month)
+print("year:",dt.day)
+print("year:",dt.hour)
+print("year:",dt.minute)
+print("year:",dt.second)
+print("year:",dt.microsecond)

@@ -1,5 +1,5 @@
 import datetime
-d=datetime.date(2021, 12, 18)
+d=datetime.date.today()
 print(d)
 print("year:",d.year)
 print("month:",d.month)
