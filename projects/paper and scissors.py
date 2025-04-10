@@ -3,7 +3,7 @@ def paly():
     user=input("what's your choice? 'r' for rock, 'p' for paper, 's' for scissors\n")
     computer =random.choice(['r','p','s'])
     if user == computer:
-        return 'It/'s a tie'
+        return 'It's a tie'
     if is_win(user,computer):
         return your won!
         return your lost!
